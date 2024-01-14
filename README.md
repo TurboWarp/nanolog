@@ -1,4 +1,4 @@
-# @turbowarp/minierlog
+# @turbowarp/nanolog
 
 `minilog` replacement for TurboWarp.
 

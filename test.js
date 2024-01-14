@@ -1,8 +1,8 @@
-const minilog = require('./index');
+const nanolog = require('./index');
 
-minilog.enable();
+nanolog.enable();
 
-const root = minilog();
+const root = nanolog();
 root.debug('debug');
 root.info('info');
 root.log('log');
