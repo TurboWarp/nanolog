@@ -16,7 +16,7 @@ const ERROR = `${RED}error${RESET}`;
 let enabled = false;
 
 const createLog = (namespace = '') => {
-    const log = (childNamespace) => createLog(`${namespace} ${childNamespace}`);
+    const log = (childNamespace) => createLog(namespace ? `${namespace} ${childNamespace}` : childNamespace);
 
     const formattedNamespace = namespace ? [`${GRAY}${namespace}${RESET}`] : [];
 
