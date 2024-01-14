@@ -1,5 +1,8 @@
 # @turbowarp/minierlog
 
-Replacement for `minilog` for TurboWarp.
+`minilog` replacement for TurboWarp.
 
-~530 bytes minified, ~372 bytes gzipped
+ - Extremely small: less than 1KB, no dependencies
+ - Does not use leading-zero octal literals (syntax error in strict mode)
+ - Does not interact with local storage, cookies, etc. (minilog does)
+ - Errors will be actually logged as errors in Firefox
