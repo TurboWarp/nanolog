@@ -25,7 +25,7 @@ const createLog = (namespace = '') => {
         return log;
     };
     log.info = (...args) => {
-        if (enabled) console.info(...formattedNamespace, INFO, ...args);
+        if (enabled) console.log(...formattedNamespace, INFO, ...args);
         return log;
     };
     log.warn = log.warning = (...args) => {
