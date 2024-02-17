@@ -1,7 +1,5 @@
 const nanolog = require('./index');
 
-nanolog.enable();
-
 const root = nanolog();
 root.debug('debug');
 root.info('info');
