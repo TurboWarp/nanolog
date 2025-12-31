@@ -1,12 +1,17 @@
 {
   "name": "@turbowarp/nanolog",
   "version": "1.0.0",
-  "description": "",
+  "description": "minilog replacement for TurboWarp.",
   "main": "index.js",
   "browser": "browser.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "node test"
+  },
+  "homepage": "https://github.com/TurboWarp/nanolog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TurboWarp/nanolog.git"
   },
   "author": "GarboMuffin",
   "license": "MIT"
